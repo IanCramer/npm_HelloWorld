@@ -1,0 +1,19 @@
+{
+  "name": "npm_helloworld_iancramer_1",
+  "version": "1.0.1",
+  "description": "This is hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "npm",
+    "hello",
+    "world"
+  ],
+  "author": "Ian Cramer",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.0.0"
+  }
+}

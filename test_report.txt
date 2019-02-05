@@ -1,0 +1,53 @@
+C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld>yarn test
+yarn run v1.13.0
+$ jest
+ PASS  ./index.test.js
+  v test adding function (21ms)
+
+  console.error node_modules/jsdom/lib/jsdom/virtual-console.js:29
+    Error: Not implemented: window.alert
+        at module.exports (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+        at C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\Window.js:594:7
+        at alert (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.js:8:9)
+        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:4:10)
+        at Object.asyncJestTest (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+        at resolve (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:41:12)
+        at new Promise (<anonymous>)
+        at mapper (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+        at promise.then (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:71:41)
+        at process._tickCallback (internal/process/next_tick.js:68:7) undefined
+
+  console.error node_modules/jsdom/lib/jsdom/virtual-console.js:29
+    Error: Not implemented: window.alert
+        at module.exports (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+        at C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\Window.js:594:7
+        at alert (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.js:8:9)
+        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:5:10)
+        at Object.asyncJestTest (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+        at resolve (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:41:12)
+        at new Promise (<anonymous>)
+        at mapper (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+        at promise.then (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:71:41)
+        at process._tickCallback (internal/process/next_tick.js:68:7) undefined
+
+  console.error node_modules/jsdom/lib/jsdom/virtual-console.js:29
+    Error: Not implemented: window.alert
+        at module.exports (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+        at C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\Window.js:594:7
+        at alert (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.js:8:9)
+        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:6:10)
+        at Object.asyncJestTest (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+        at resolve (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:41:12)
+        at new Promise (<anonymous>)
+        at mapper (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+        at promise.then (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:71:41)
+        at process._tickCallback (internal/process/next_tick.js:68:7) undefined
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        7.177s
+Ran all test suites.
+Done in 12.00s.
+
+C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld>
