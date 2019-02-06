@@ -1,15 +1,30 @@
 C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld>yarn test
 yarn run v1.13.0
 $ jest
- PASS  ./index.test.js
-  v test adding function (21ms)
+ PASS  ./index.test.js (6.64s)
+  v Add Function as Expected (29ms)
+  v Add Function With a 0 (1ms)
+  v Add Function With Decimals (1ms)
+  v Add Function With Negatives (1ms)
+  v Add Function With One Argument
+ Result: Added to Default (0)
+  v Add Function With No Arguments
+ Result: Two Defaults (0) (1ms)
+  v Add Function With Too Many Arguments
+ Result: Only First 2 Arguments Used (1ms)
+  v Add Function With A String
+ Result: NaN (1ms)
+  v Add Function With A Bool
+ Result: NaN (1ms)
+  v Add Function With An Object
+ Result: NaN
 
   console.error node_modules/jsdom/lib/jsdom/virtual-console.js:29
     Error: Not implemented: window.alert
         at module.exports (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
         at C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\Window.js:594:7
         at alert (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.js:8:9)
-        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:4:10)
+        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:5:9)
         at Object.asyncJestTest (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
         at resolve (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:41:12)
         at new Promise (<anonymous>)
@@ -22,7 +37,7 @@ $ jest
         at module.exports (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
         at C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\Window.js:594:7
         at alert (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.js:8:9)
-        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:5:10)
+        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:10:9)
         at Object.asyncJestTest (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
         at resolve (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:41:12)
         at new Promise (<anonymous>)
@@ -35,7 +50,98 @@ $ jest
         at module.exports (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
         at C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\Window.js:594:7
         at alert (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.js:8:9)
-        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:6:10)
+        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:15:9)
+        at Object.asyncJestTest (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+        at resolve (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:41:12)
+        at new Promise (<anonymous>)
+        at mapper (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+        at promise.then (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:71:41)
+        at process._tickCallback (internal/process/next_tick.js:68:7) undefined
+
+  console.error node_modules/jsdom/lib/jsdom/virtual-console.js:29
+    Error: Not implemented: window.alert
+        at module.exports (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+        at C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\Window.js:594:7
+        at alert (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.js:8:9)
+        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:20:9)
+        at Object.asyncJestTest (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+        at resolve (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:41:12)
+        at new Promise (<anonymous>)
+        at mapper (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+        at promise.then (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:71:41)
+        at process._tickCallback (internal/process/next_tick.js:68:7) undefined
+
+  console.error node_modules/jsdom/lib/jsdom/virtual-console.js:29
+    Error: Not implemented: window.alert
+        at module.exports (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+        at C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\Window.js:594:7
+        at alert (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.js:8:9)
+        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:25:9)
+        at Object.asyncJestTest (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+        at resolve (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:41:12)
+        at new Promise (<anonymous>)
+        at mapper (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+        at promise.then (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:71:41)
+        at process._tickCallback (internal/process/next_tick.js:68:7) undefined
+
+  console.error node_modules/jsdom/lib/jsdom/virtual-console.js:29
+    Error: Not implemented: window.alert
+        at module.exports (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+        at C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\Window.js:594:7
+        at alert (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.js:8:9)
+        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:30:9)
+        at Object.asyncJestTest (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+        at resolve (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:41:12)
+        at new Promise (<anonymous>)
+        at mapper (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+        at promise.then (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:71:41)
+        at process._tickCallback (internal/process/next_tick.js:68:7) undefined
+
+  console.error node_modules/jsdom/lib/jsdom/virtual-console.js:29
+    Error: Not implemented: window.alert
+        at module.exports (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+        at C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\Window.js:594:7
+        at alert (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.js:8:9)
+        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:35:9)
+        at Object.asyncJestTest (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+        at resolve (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:41:12)
+        at new Promise (<anonymous>)
+        at mapper (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+        at promise.then (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:71:41)
+        at process._tickCallback (internal/process/next_tick.js:68:7) undefined
+
+  console.error node_modules/jsdom/lib/jsdom/virtual-console.js:29
+    Error: Not implemented: window.alert
+        at module.exports (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+        at C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\Window.js:594:7
+        at alert (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.js:8:9)
+        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:40:9)
+        at Object.asyncJestTest (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+        at resolve (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:41:12)
+        at new Promise (<anonymous>)
+        at mapper (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+        at promise.then (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:71:41)
+        at process._tickCallback (internal/process/next_tick.js:68:7) undefined
+
+  console.error node_modules/jsdom/lib/jsdom/virtual-console.js:29
+    Error: Not implemented: window.alert
+        at module.exports (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+        at C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\Window.js:594:7
+        at alert (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.js:8:9)
+        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:45:9)
+        at Object.asyncJestTest (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+        at resolve (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:41:12)
+        at new Promise (<anonymous>)
+        at mapper (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+        at promise.then (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:71:41)
+        at process._tickCallback (internal/process/next_tick.js:68:7) undefined
+
+  console.error node_modules/jsdom/lib/jsdom/virtual-console.js:29
+    Error: Not implemented: window.alert
+        at module.exports (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\not-implemented.js:9:17)
+        at C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jsdom\lib\jsdom\browser\Window.js:594:7
+        at alert (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.js:8:9)
+        at Object.add (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\index.test.js:51:9)
         at Object.asyncJestTest (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
         at resolve (C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld\node_modules\jest-jasmine2\build\queueRunner.js:41:12)
         at new Promise (<anonymous>)
@@ -44,10 +150,10 @@ $ jest
         at process._tickCallback (internal/process/next_tick.js:68:7) undefined
 
 Test Suites: 1 passed, 1 total
-Tests:       1 passed, 1 total
+Tests:       10 passed, 10 total
 Snapshots:   0 total
-Time:        7.177s
+Time:        16.382s
 Ran all test suites.
-Done in 12.00s.
+Done in 26.99s.
 
 C:\Users\Kenneth\Desktop\Ian\Work\Prismo\npm_HelloWorld>
